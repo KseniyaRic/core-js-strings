@@ -296,7 +296,7 @@ function orderAlphabetically(str) {
 function containsSubstring(str, substring) {
   return str.includes(substring);
 }
-//ОСТАНОВИЛАСЬ ТУТ
+// ОСТАНОВИЛАСЬ ТУТ//
 /**
  * Returns the number of vowels in the string.
  * Vowels: 'a', 'e', 'i', 'o', 'u', 'y', 'A', 'E', 'I', 'O', 'U', 'Y'.
@@ -311,17 +311,8 @@ function containsSubstring(str, substring) {
  *   countVowels('aEiOu') => 5
  *   countVowels('XYZ') => 1
  */
-function countVowels(str) {
-  let count = 0;
-  const vowels = 'aeiouyAEIOUY';
-
-  for (let i = 0; i < str.length; i += 1) {
-    if (vowels.includes(str.charAt(i))) {
-      count += 1;
-    }
-  }
-
-  return count;
+function countVowels(/* str */) {
+  throw new Error('Not implemented');
 }
 
 /**
